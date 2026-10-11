@@ -65,7 +65,7 @@ Settings are in `.env`: Scaleo URL and key, the sheet ID and worksheet name, the
 
 ## Notes
 
-- Version 1 is my own first attempt. Versions 2 and 3 were developed with AI help: I understand the batching idea well, and I'm still learning `asyncio`.
+- Version 1 is my own first attempt. Versions 2 and 3 were developed with AI assistance; I ran and benchmarked all three versions myself.
 - I tested the script against a local mock of the API (successful responses, 404, server errors that succeed on retry, invalid JSON), but the real Scaleo and Google Sheets calls only run in my own setup.
 - Not affiliated with Scaleo.
 
